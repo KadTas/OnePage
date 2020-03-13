@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simplon Reproduction</title>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <script src="https://kit.fontawesome.com/22fcc891fe.js" crossorigin="anonymous"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav>
+    <div><img src="./images/top-logo.png"></img></div>
+    <div class="links"><a href="./index.html#who">WHO WE ARE</a>
+    <a href="./index.html#get-involved">GET INVOLVED</a></div>
+    </nav>
+
+    <div id="home">
+    <div class="goal">Our goal is to inspire Tallahassee to write 1,000,000 lines of code_</div>
+    <div class="challenge">All over the country people are taking the HOUR OF CODE challenge issued by CODE.org. Millions of lines of code are being written. 
+      In the capital of Florida, Tallahassee, the community is taking the challenge and ouf goal is to write 1,000,000 lines of code_</div>
+      <button class="more"
+      type="button">
+  Learn more >>
+</button>
+    <div><img src="./images/code.png"></div>
+    </div>
+
+    <div id="who">
+    <img src="./images/academy-brand-med.png">
+    <div class="redwho">WHO WE ARE<hr width="100px"></div>
+    <div>We are <span style="color:#d94f4f;">MASSIVE Academy</span>. We aim to improve education through both method - effective project-based learning - and material 
+      - by teaching skills that are applicable to improving your life today.</div>
+    </div><!-- /#who -->
+
+    <div id="get-involved">
+      <div class="redwho">GET INVOLVED<hr width="100px"></div>
+      <div class="get-involvement">
+        <div class="got-involvement"><i class="fas fa-3x fa-user"></i><div><span class="redwhat">STUDENTS</span></div><div>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved</div><button class="involvebutton"type="button">Start learning >></button></div>
+        <div class="got-involvement"><i class="fas fa-3x fa-pencil-alt"></i><div><span class="redwhat">EDUCATORS</span></div><div>Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</div><button class="involvebutton"type="button">Join The Initiative >></button></div>
+        <div class="got-involvement"><i class="far fa-3x fa-money-bill-alt"></i><div><span class="redwhat">SPONSORS</span></div><div>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</div><button class="involvebutton"type="button">Give Support >></button></div>
+      </div>
+    </div><!-- /#get-involved -->
+
+    <footer>
+      <div class="foot"><img src="./images/one-million-bottom-brand.png"></div>
+    </footer>
+
+    <div id="back-to-top">
+      <button onclick="topFunction()" id="totop" title="back-to-top"><i class="fas fa-chevron-up"></i></button> 
+    </div><!-- /#back-to-top -->
+
+  <script>  
+  mybutton = document.getElementById("totop");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
+}
+  </script>
+  </body>
+</html>
